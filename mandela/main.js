@@ -1,5 +1,5 @@
 document.getElementById("compare-btn").addEventListener("click", function(event){
-    event.preventDefault();
+    event.preventDefault()
     let expected = document.getElementById("expected").value;
     let actual = document.getElementById("actual").value;
     let result = document.getElementById("result");

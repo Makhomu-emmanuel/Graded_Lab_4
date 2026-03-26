@@ -9,7 +9,7 @@ let message = document.getElementById("message");
 let count = 0;
 let total = pics.length;
 
-// Initial counter display
+
 counter.textContent = "Remaining images: " + total;
 
 for (let i = 0; i < pics.length; i++) {
