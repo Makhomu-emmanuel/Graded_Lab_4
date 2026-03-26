@@ -1,0 +1,40 @@
+/* Target only images */
+img.mandela {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+#pics img, #favorites img {
+  cursor: pointer;
+}
+
+#pics, #favorites {
+  margin-bottom: 20px;
+}
+
+#favorites {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  min-height: 120px;
+}
+
+#actions {
+  margin-top: 20px;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  list-style: none;
+}
+
+
+#actions li:nth-child(odd) { background-color: #f0f0f0; }
+#actions li:nth-child(even) { background-color: #ffffff; }
+
+#actions li { padding: 2px 4px; }
+
+img:hover {
+  opacity: 0.8;
+}
